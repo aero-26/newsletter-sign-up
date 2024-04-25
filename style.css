@@ -102,6 +102,15 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: rgb(255, 82, 123);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 82, 123, 1) 0%,
+    rgba(255, 106, 58, 1) 100%
+  );
+}
+
 .label-div {
   display: flex;
   justify-content: space-between;
