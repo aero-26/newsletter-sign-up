@@ -1,0 +1,50 @@
+@media screen and (min-width: 500px) {
+  body {
+    background-color: #36384e;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .content {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5% 0;
+    height: 30rem;
+    align-items: center;
+  }
+  .background {
+    display: flex;
+  }
+
+  .background img {
+    align-items: center;
+    height: 28rem;
+  }
+
+  .main {
+    padding: 0 2rem;
+  }
+
+  .confirm-msg {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 30px;
+    width: 25rem;
+  }
+
+  .confirm-msg h1 {
+    line-height: 3rem;
+  }
+  .confirm-msg img {
+    height: 3rem;
+    width: 3rem;
+  }
+}

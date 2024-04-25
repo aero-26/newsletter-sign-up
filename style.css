@@ -45,12 +45,11 @@ body {
   margin: 0;
   line-height: 1.5rem;
   font-weight: 400;
-  display: flex;
-  align-items: center;
+  min-height: 100vh;
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 h1,
@@ -84,6 +83,7 @@ input {
   margin-top: 0.2rem;
   border: 1px solid #9194a0;
   width: 100%;
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -99,6 +99,7 @@ button {
   border-radius: 8px;
   width: 100%;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .label-div {

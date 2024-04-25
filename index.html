@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile-style.css" />
+    <link rel="stylesheet" href="desktop-tab.css" />
 
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
@@ -22,8 +23,10 @@
   <body>
     <!-- Sign-up form start -->
 
-    <div>
-      <div class="background"></div>
+    <div class="content hide">
+      <div class="background">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
       <div class="main">
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -35,7 +38,7 @@
         </ul>
 
         <div>
-          <form">
+          <form>
             <div class="label-div">
               <label for="email">Email address</label>
               <label class="hide error">Valid email required</label>

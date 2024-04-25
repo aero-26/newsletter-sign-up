@@ -24,6 +24,7 @@ const checkEmail = () => {
 };
 
 submitBtn.addEventListener("click", (e) => {
+  e.preventDefault();
   if (emailRegex.test(eMailFocus.value)) {
     registrationPage.classList.add("hide");
     confirmMsg.classList.remove("hide");

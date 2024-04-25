@@ -1,4 +1,4 @@
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .main {
     padding: 1.5rem;
   }
@@ -9,6 +9,10 @@
     background-position: center;
     background-size: cover;
     min-width: 90%;
+  }
+
+  .background img {
+    display: none;
   }
 
   .confirm-msg {
