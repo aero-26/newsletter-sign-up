@@ -10,4 +10,20 @@
     background-size: cover;
     min-width: 90%;
   }
+
+  .confirm-msg {
+    padding: 1.5rem;
+  }
+
+  .confirm-msg h1 {
+    line-height: 2.5rem;
+  }
+
+  .confirm-msg img {
+    margin: 8rem 0 1rem 0;
+  }
+
+  .confirm-msg button {
+    margin: 17rem 0 0 0;
+  }
 }
