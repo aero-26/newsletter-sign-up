@@ -1,0 +1,13 @@
+@media screen and (max-width: 430px) {
+  .main {
+    padding: 1.5rem;
+  }
+  .background {
+    background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+    height: 17.8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+  }
+}

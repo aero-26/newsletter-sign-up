@@ -24,6 +24,10 @@ Weights: 400, 700
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: roboto;
   src: url(./assets/fonts/Roboto-Regular.ttf);
@@ -37,4 +41,72 @@ Weights: 400, 700
 body {
   font-size: 1rem;
   font-family: roboto;
+  color: #242741;
+  margin: 0;
+  line-height: 1.5rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+h1,
+label {
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+li::marker {
+  content: url(./assets/images/icon-list.svg);
+}
+
+li {
+  padding: 0.8rem 0 0 0.8rem;
+}
+
+label {
+  display: inline-block;
+  font-size: smaller;
+}
+
+input {
+  display: block;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.2rem;
+  border: 1px solid #9194a0;
+  width: 100%;
+}
+
+::placeholder {
+  color: #9194a0;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  background-color: #36384e;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.label-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: #ff6156;
+  border-color: #ff6156;
 }
